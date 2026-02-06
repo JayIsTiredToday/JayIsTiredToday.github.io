@@ -3,12 +3,24 @@ project:
   output-dir: docs
 
 website:
-  title: "Test"
+  title: "Jay Liu"
   navbar:
-    left:
+  
+    style: "floating"
+    search: false
+    left: 
       - href: index.qmd
         text: Home
       - about.qmd
+    right: 
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jay-liu-93a466389/
+        aria-label: linkedin
+      - icon: github
+        href: https://github.com/JayIsTiredToday?tab=repositories
+        aria-label: github
+
+        
 
 format:
   html:
