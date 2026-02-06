@@ -8,10 +8,7 @@ website:
   
     style: "floating"
     search: false
-    left: 
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    background: "#FF976E"
     right: 
       - icon: linkedin
         href: https://www.linkedin.com/in/jay-liu-93a466389/
@@ -19,6 +16,8 @@ website:
       - icon: github
         href: https://github.com/JayIsTiredToday?tab=repositories
         aria-label: github
+      - about.qmd
+
 
         
 
@@ -27,6 +26,10 @@ format:
     theme:
       - cosmo
       - brand
+    backgroundcolor: "#E8E6E6"
+    page-layout: article
+    margin-left: 0px
+    margin-right: 0px
     css: styles.css
     toc: true
 

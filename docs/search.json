@@ -30,9 +30,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Test",
+    "title": "Hey There!",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "I’m Jay, a student at Georgetown University studying Computer Science, Ethics and Society. I’m passionate for using data to unveil hidden insights, and informing decision making through such findings. In the past, I’ve worked with WMATA — the 2nd largest metro transit authority in the US — and Chaia Tacos — a local vegan taco restaurant in DC — in areas such as time series analyses, embeddings, and topic modeling.\nI’m also fascinated by how emerging technologies interact with law and policy. Some of my articles can be found here."
   },
   {
     "objectID": "about.html",

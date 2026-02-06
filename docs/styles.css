@@ -1,7 +1,14 @@
 /* css styles */
-.navbar{
-    display: flex; 
-    width: 40%;
-    justify-content: center; 
-    transform: translateX(70%);
+.content {
+    transform: translate(20%, 5%);
+    max-width: 40rem;
 }
+@media (min-width: 1200px) {
+    .navbar { 
+        border-radius: 25px;
+        transform: translate(-50%, 50%);
+        width: 60%; 
+        left: 50%;
+        position: relative;
+    }
+  }
