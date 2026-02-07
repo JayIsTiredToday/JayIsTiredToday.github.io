@@ -5,10 +5,7 @@ project:
 website:
   title: "Jay Liu"
   navbar:
-  
-    style: "floating"
     search: false
-    background: "#FCAA83"
     right: 
       - icon: linkedin
         href: https://www.linkedin.com/in/jay-liu-93a466389/

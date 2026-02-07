@@ -5,7 +5,6 @@ toc-location: left
 toc-depth: 3
 
 ---
-
 ---
 
 ## Background
@@ -20,9 +19,11 @@ Short answer: no, not at all. In fact, there proved to be more traffic accidents
 
 (red: accidents involving injuries; green: accidents without injuries; gray: bike lanes. )
 
-Focusing solely on the bike lanes themselves, there isn't evidence to show that bike lanes promote safety for riders. In fact, along the bike lanes there exists a higher percentage of red data points compared to green data points, meaning that the existence of bike lanes is seemingly linked to a higher ratio of injury-causing accidents. 
+Focusing solely on the bike lanes themselves, there isn't evidence to show that bike lanes promote safety for riders. In fact, along the bike lanes there exists a higher percentage of red data points compared to green data points, meaning that the existence of bike lanes is seemingly linked to a higher frequency of injury-causing accidents. 
 
-This directly contradicts what I initially hypothesized and what intuition would tell us. 
+This directly contradicts what I initially hypothesized and what intuition would tell us. However, upon closer inspection the finding actually makes sense due to sampling bias and reporting bias. Bike lanes attract more bikers, therefore leading to a higher number of raw accidents. 
+
+## Finding Data 
 
 
 

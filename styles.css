@@ -1,16 +1,23 @@
 /* css styles */
 @media (min-width: 996px) {
-    .navbar { 
-        border-radius: 25px;
-        transform: translate(-50%, 50%);
-        width: 60%; 
-        left: 50%;
-        position: relative;
-    }
-    .content {
-      max-width: 40rem;
+  .navbar { 
+      border-radius: 25px;
+      transform: translateX(-50%);
+      left: 50%; 
+      width: 60%; 
+      position: relative; 
+      background-color: #FCAA83 !important;
+      z-index: 1001;
   }
+  #quarto-header{
+    background-color: #E8E6E6; 
+    padding-top: 3.5rem;
   }
+  .content {
+    max-width: 40rem;
+  }
+}
+
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -61,15 +68,16 @@
 main,
 .page-layout-article {
   position: relative;
+  margin-top: 0;
   left: 50%;
   transform: translateX(-50%);
   width: fit-content;
 }
 #title-block-header{
-  margin-top: 2rem;
+  margin-top: 30px;
 }
 img {
   max-width: 100%;
   height: auto;
-  display: block; 
+  display: block;
 }
