@@ -1,0 +1,28 @@
+---
+title: Taichung City Bike Accidents 
+toc: true
+toc-location: left
+toc-depth: 3
+
+---
+
+---
+
+## Background
+One of my favorite things to do when I'm back in Taiwan from DC is to bike using our bikeshare system YouBike. Nothing quite compares to biking home past midnight after fooling around with my friends in the heart of the city. As much as I enjoy biking, I think if I were to bike without bike lanes or sidewalks (which are both abundant in Taipei) I definitely would've been in some accidents. 
+
+This made me curious about the relationship between bike accidents and bike lanes. Do bike lanes actually protect bike riders as intuition would tell us? 
+
+## Findings 
+Short answer: no, not at all. In fact, there proved to be more traffic accidents involving bikes occuring along the bike lanes as shown below. 
+
+<img src="center.png" alt="Map showing bike lanes in Taichung and traffic accidents" />
+
+(red: accidents involving injuries; green: accidents without injuries; gray: bike lanes. )
+
+Focusing solely on the bike lanes themselves, there isn't evidence to show that bike lanes promote safety for riders. In fact, along the bike lanes there exists a higher percentage of red data points compared to green data points, meaning that the existence of bike lanes is seemingly linked to a higher ratio of injury-causing accidents. 
+
+This directly contradicts what I initially hypothesized and what intuition would tell us. 
+
+
+

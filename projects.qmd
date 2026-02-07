@@ -5,7 +5,7 @@ title: "Projects"
 ::: {.project-grid}
 
 ::: {.project-card}
-<a href="/projects/taichung-bike.qmd">
+<a href="/projects/taichung-bike/taichung-bike.qmd">
 <h3> Taichung City Bike Accidents </h3> 
 <img src="test.png" alt="Project 1" />
 <p> DBSCAN clustering locating hotspots of traffic accidents</p>

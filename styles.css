@@ -68,3 +68,8 @@ main,
 #title-block-header{
   margin-top: 2rem;
 }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; 
+}
