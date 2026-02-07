@@ -1,8 +1,4 @@
 /* css styles */
-.content {
-    transform: translate(20%, 5%);
-    max-width: 40rem;
-}
 @media (min-width: 1200px) {
     .navbar { 
         border-radius: 25px;
@@ -11,4 +7,42 @@
         left: 50%;
         position: relative;
     }
+    .content {
+      transform: translate(20%, 5%);
+      max-width: 40rem;
   }
+  }
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+  
+.project-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+  
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.project-card a {
+  text-decoration: none; 
+  color: inherit; 
+  display: block;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+  
+.project-card h3 {
+    margin-top: 0;
+}

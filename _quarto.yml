@@ -8,7 +8,7 @@ website:
   
     style: "floating"
     search: false
-    background: "#FF976E"
+    background: "#FCAA83"
     right: 
       - icon: linkedin
         href: https://www.linkedin.com/in/jay-liu-93a466389/
@@ -16,7 +16,8 @@ website:
       - icon: github
         href: https://github.com/JayIsTiredToday?tab=repositories
         aria-label: github
-      - about.qmd
+      - href: "projects.qmd"
+        text: Projects
 
 
         

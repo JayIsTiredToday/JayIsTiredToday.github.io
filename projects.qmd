@@ -1,0 +1,21 @@
+---
+title: "Projects"
+---
+
+::: {.project-grid}
+
+::: {.project-card}
+<a href="project1.html">
+<h3> Project Title 1 </h3> 
+<img src="test.png" alt="Project 1" />
+<p>A brief description of your project goes here.</p>
+</a>
+::: 
+
+::: {.project-card}
+<a href="project2.html">
+<h3> Project Title 2 </h3> 
+<img src="test.png" alt="Project 2" />
+<p>A brief description of your project goes here.</p>
+</a>
+::: 
