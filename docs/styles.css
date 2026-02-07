@@ -1,5 +1,5 @@
 /* css styles */
-@media (min-width: 1200px) {
+@media (min-width: 996px) {
     .navbar { 
         border-radius: 25px;
         transform: translate(-50%, 50%);
@@ -8,7 +8,6 @@
         position: relative;
     }
     .content {
-      transform: translate(20%, 5%);
       max-width: 40rem;
   }
   }
@@ -32,9 +31,9 @@
 }
 
 .project-card a {
-  text-decoration: none; 
-  color: inherit; 
-  display: block;
+    text-decoration: none; 
+    color: inherit; 
+    display: block;
 }
 
 .project-card img {
@@ -45,4 +44,27 @@
   
 .project-card h3 {
     margin-top: 0;
+}
+#quarto-sidebar{
+  border-radius: 20px;
+  margin-left: 0; 
+  margin-right: 0; 
+  margin-top: 8rem; 
+  max-width: 8rem; 
+  background-color: #E8E6E6;
+  left: 60%; 
+  padding: 0; 
+}
+#TOC{
+  margin-left: 1rem; 
+}
+main,
+.page-layout-article {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: fit-content;
+}
+#title-block-header{
+  margin-top: 2rem;
 }

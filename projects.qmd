@@ -5,10 +5,10 @@ title: "Projects"
 ::: {.project-grid}
 
 ::: {.project-card}
-<a href="project1.html">
-<h3> Project Title 1 </h3> 
+<a href="/projects/taichung-bike.qmd">
+<h3> Taichung City Bike Accidents </h3> 
 <img src="test.png" alt="Project 1" />
-<p>A brief description of your project goes here.</p>
+<p> DBSCAN clustering locating hotspots of traffic accidents</p>
 </a>
 ::: 
 
@@ -19,3 +19,5 @@ title: "Projects"
 <p>A brief description of your project goes here.</p>
 </a>
 ::: 
+
+:::

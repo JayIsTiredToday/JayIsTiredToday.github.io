@@ -46,7 +46,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Project Title 1\n\n\n\nA brief description of your project goes here.\n\n\n\n\n\n\nProject Title 2\n\n\n\nA brief description of your project goes here."
+    "text": "Taichung City Bike Accidents\n\n\n\nDBSCAN clustering locating hotspots of traffic accidents\n\n\n\n\n\n\nProject Title 2\n\n\n\nA brief description of your project goes here."
   },
   {
     "objectID": "projects.html#title-projects",
@@ -54,5 +54,19 @@
     "title": "Projects",
     "section": "title: “Projects”",
     "text": "title: “Projects”\n\n\nProject Title 1\n A brief description of your project goes here.\nView Project →\n\n\nProject Title 2\n Another project description.\nView Project →\n\n\nProject Title 3\n Description of this project.\nView Project →"
+  },
+  {
+    "objectID": "projects/taichung-bike.html",
+    "href": "projects/taichung-bike.html",
+    "title": "Jay Liu",
+    "section": "",
+    "text": "title: Taichung City Bike Accidents toc: true toc-location: left toc-depth: 3"
+  },
+  {
+    "objectID": "projects/taichung-bike.html#background",
+    "href": "projects/taichung-bike.html#background",
+    "title": "Taichung City Bike Accidents",
+    "section": "Background",
+    "text": "Background\nOne of my favorite things to do when I’m back in Taiwan from DC is to bike using our bikeshare system YouBike. It’s free for the first 30 minutes and way more convenient than Capital Bikeshare. Nothing quite compares to biking home past midnight after fooling around with my friends in the heart of the city. As much as I enjoy biking, I’ve had some scary moments as well. I think if I were to bike without bike lanes or sidewalks (which are both abundant in Taipei) I definitely would’ve been in some accidents.\nThis made me curious about the relationship between traffic accidents involving bikes and their proximity to bike lanes."
   }
 ]
