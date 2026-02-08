@@ -154,6 +154,7 @@ window.Quarto = {
   <li><a href="#exploring-data" id="toc-exploring-data" class="nav-link" data-scroll-target="#exploring-data">Exploring Data</a></li>
   <li><a href="#dbscan" id="toc-dbscan" class="nav-link" data-scroll-target="#dbscan">DBSCAN</a></li>
   <li><a href="#the-hotspots" id="toc-the-hotspots" class="nav-link" data-scroll-target="#the-hotspots">The Hotspots</a></li>
+  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions">Conclusions</a></li>
   </ul>
 </nav>
 </nav>
@@ -193,11 +194,13 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="results">Results</h2>
 <p>Short answer: no, not at all. In fact, there proved to be more traffic accidents involving bikes occuring along the bike lanes as shown below.</p>
 <p><img src="gray-bg-bike-lane.png" alt="Map showing bike lanes in Taichung and traffic accidents"></p>
-<p>(red: accidents involving injuries; green: accidents without injuries; gray: bike lanes. )</p>
+<p style="text-align: center;">
+(red: accidents involving injuries; green: accidents without injuries; gray: bike lanes. )
+</p>
 <p>Focusing solely on the bike lanes themselves, there isn’t evidence to show that bike lanes promote safety for riders. In fact, along the bike lanes there exists a higher percentage of red data points compared to green data points, meaning that the existence of bike lanes is seemingly linked to a higher frequency of injury-causing accidents.</p>
-<p>This directly contradicts what I initially hypothesized and what intuition would tell us. However, upon closer inspection the finding actually makes sense due to sampling bias and reporting bias. Bike lanes attract more bikers, therefore leading to a higher number of raw accidents. It’s highly likely the probability of accidents happening on bike lanes are lower, and that the higher ridership makes it seem like bike lanes are more dangerous. Unfortunately, I couldn’t find ridership data to statistically confirm this.</p>
+<p>However, upon closer inspection the finding actually makes sense due to sampling bias and reporting bias. Bike lanes attract more bikers, therefore leading to a higher number of raw accidents. It’s highly likely the probability of accidents happening on bike lanes are lower, and that the higher ridership makes it seem like bike lanes are more dangerous. Unfortunately, I couldn’t find ridership data to statistically confirm this.</p>
 <p>As this seemed to be a dead end, I moved on to consider whether there are major hotspots of accidents. Locating these dangerous areas could also help improve bike safety in the city. I ran a DBSCAN model based on the Euclidean distances among accident points and discovered the following 3 hotspots, all in the city center. They’re located at Xuefu Rd (學府路), Yuxian Rd (育賢路), and Beitun Rd (北屯路). This information can be used to explore whether these hotspots have anything in common (ex. road design, proximity to transportation hubs), thereby guiding policy and infrastructure improvements.</p>
-<p><img src="clusters.png" alt="Map showing bike lanes in Taichung and traffic accidents"></p>
+<p><img src="150m5.png" alt="Map showing bike lanes in Taichung and traffic accidents"></p>
 <p style="text-align: center;">
 (hotspot clusters derived from DBSCAN with <span class="math inline">\(\epsilon\)</span> = 150 meters and n = 5)
 </p>
@@ -255,7 +258,8 @@ window.Quarto = {
 <section id="the-hotspots" class="level2">
 <h2 class="anchored" data-anchor-id="the-hotspots">The Hotspots</h2>
 <p>At last, I’ve identified three hotspots, all located in the city center. We can individually look at each hotspot.</p>
-<p>The first hotspot (dark red) is along Xuefu Rd (學府路), from its intersection with Fuxing Rd Sec 3 (復興路三段)up to its intersection with Jianguo N Rd Sec 3 (建國北路三段).</p>
+<p><img src="150m5.png" alt="Map showing bike lanes in Taichung and traffic accidents"></p>
+<p>The first hotspot (dark red) is along Xuefu Rd (學府路), from its intersection with Fuxing Rd Sec 3 (復興路三段) up to its intersection with Jianguo N Rd Sec 3 (建國北路三段).</p>
 <iframe src="https://www.google.com/maps/embed?pb=!4v1770516055498!6m8!1m7!1slD266vBgdl496gzB88ncOw!2m2!1d24.13114564096557!2d120.6730204646949!3f351.32436975189165!4f0.43719019798376735!5f0.5520113146339419" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
 </iframe>
 <p>The second hotspot (pink) is along Yuxian Rd (育賢路) with its intersection with Huanzhong E Rd Sec 3 (環中東路三段).</p>
@@ -264,7 +268,13 @@ window.Quarto = {
 <p>The third hotspot (gray) is along Beitun Rd (北屯路) near its intersection with Taiyuan Rd Sec 3 (太原路三段).</p>
 <iframe src="https://www.google.com/maps/embed?pb=!4v1770516288416!6m8!1m7!1s5cMCrr8PXTLQjJrpxxqicA!2m2!1d24.16478322719237!2d120.6942223431201!3f3.171194314876857!4f-6.274869041961779!5f0.4000000000000002" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
 </iframe>
+</section>
+<section id="conclusions" class="level2">
+<h2 class="anchored" data-anchor-id="conclusions">Conclusions</h2>
 <p>All of these are large, complicated intersections with wide roads of multiple lanes, as well as cars and motorcycles coming from all directions. It’s no surprise that these are among the most dangerous hotspots for bikers in the city. These three locations are all urgent, dangerous zones that the Taichung City Department of Transportation should investigate. Not to mention that the data used in this project only included the first 11 months of 2025. These intersections have likely been dangerous for years more, having caused traffic accidents of tens or even hundreds of people.</p>
+<p>I’m disappointed that I couldn’t find a way to further explore the relaltionship between bike lanes and accidents, but I’m glad I’m able to highlight these specific high-risk areas for bikers. I’m still curious about whether or not bike lanes statistically improve safety, and it’s a question I’d love to explore if I can find ridership data. I’m also curious about whether proximity to different locations and infrastructure plays a role in accident frequency. For example, the first two hotspots were both very close to an overpass and the second and the third hotspots had bus stops nearby. I’m interested in looking deeper into such relationships as well.</p>
+<p>Traffic policies and infrastructure are complicated and costly to execute. It simply isn’t within my capabilities to judge how or if these areas should be redesigned. However, I hope that this nonetheless insightful and interesting to policymakers, bikers, and anyone who happened to stumble upon this!</p>
+<p><a href="https://github.com/JayIsTiredToday/taichung-bike-accidents">View the repo or play with the data and maps (gpkg layers) here</a></p>
 
 
 </section>

@@ -1,7 +1,22 @@
 ---
 title: "Hey There!"
 ---
+:::index
+I'm Jay, a student at Georgetown University studying **Computer Science, Ethics and Society**. I'm passionate for using data to unveil hidden insights, and informing decision making through such findings. In the past, I've worked with **WMATA — the 2nd largest metro transit authority in the US** — and Chaia Tacos — a local vegan taco restaurant in DC — in areas such as **supply chain predictive modeling, embeddings, and topic modeling**. 
 
-I'm Jay, a student at Georgetown University studying Computer Science, Ethics and Society. I'm passionate for using data to unveil hidden insights, and informing decision making through such findings. In the past, I've worked with WMATA — the 2nd largest metro transit authority in the US — and Chaia Tacos — a local vegan taco restaurant in DC — in areas such as time series analyses, embeddings, and topic modeling. 
+I'm also fascinated by how emerging technologies interact with policy and society. Some of my articles can be found [here](https://thehoya.com/staff_name/jay-liu/). 
 
-I'm also fascinated by how emerging technologies interact with law and policy. Some of my articles can be found [here](https://thehoya.com/staff_name/jay-liu/). 
+Some relevant coursework that I've taken in the past: 
+
+- Computer Science I & II 
+
+- Data Structures 
+
+- Mathematical Methods for Computer Science 
+
+- Probability and Statistics 
+
+- Digital Law and Policy
+
+- Tech, Ethics, and Society
+:::
