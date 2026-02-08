@@ -67,14 +67,36 @@ DBSCAN takes in two parameters, $\epsilon$, the maximum distance between two dat
 <img src="200m5 cluster ex.png" alt="Map showing bike lanes in Taichung and traffic accidents" />
 <p style="text-align: center;">(example cluster; data points are from completely different roads)</p>
 
+Then I moved onto $\epsilon$ = 180, which provided better results but still had loose clusters where data points weren't related to one another. 
+
 <img src="180m5.png" alt="Map showing bike lanes in Taichung and traffic accidents" />
 <p style="text-align: center;">(hotspot clusters derived from DBSCAN with  $\epsilon$  = 180 meters and n = 5)</p>
 
 <img src="180m5 cluster ex.png" alt="Map showing bike lanes in Taichung and traffic accidents" />
 <p style="text-align: center;">(example cluster; some clusters are still from different roads)</p>
 
+At $\epsilon$ = 150, the clusters looked like what I was hoping for. All of them were very concentrated with data points and all the data points were related to each other whether that be they're on the same road or same intersection. 
+
 <img src="150m5.png" alt="Map showing bike lanes in Taichung and traffic accidents" />
 <p style="text-align: center;">(hotspot clusters derived from DBSCAN with  $\epsilon$  = 150 meters and n = 5)</p>
 
 <img src="150m5 cluster ex.png" alt="Map showing bike lanes in Taichung and traffic accidents" />
 <p style="text-align: center;">(example cluster; clusters are now compact and traffically related)</p>
+
+## The Hotspots
+
+At last, I've identified three hotspots, all located in the city center. We can individually look at each hotspot. 
+
+The first hotspot (dark red) is along Xuefu Rd (學府路), from its intersection with Fuxing Rd Sec 3 (復興路三段)up to its intersection with Jianguo N Rd Sec 3 (建國北路三段). 
+
+<iframe src="https://www.google.com/maps/embed?pb=!4v1770516055498!6m8!1m7!1slD266vBgdl496gzB88ncOw!2m2!1d24.13114564096557!2d120.6730204646949!3f351.32436975189165!4f0.43719019798376735!5f0.5520113146339419" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+The second hotspot (pink) is along Yuxian Rd (育賢路) with its intersection with Huanzhong E Rd Sec 3 (環中東路三段). 
+
+<iframe src="https://www.google.com/maps/embed?pb=!4v1770516872236!6m8!1m7!1sKeBa-ETxZ7jwT5AL3IyRzA!2m2!1d24.15837935138429!2d120.7178400684109!3f1.12!4f-7.019999999999996!5f0.4000000000000002" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+The third hotspot (gray) is along Beitun Rd (北屯路) near its intersection with Taiyuan Rd Sec 3 (太原路三段). 
+
+<iframe src="https://www.google.com/maps/embed?pb=!4v1770516288416!6m8!1m7!1s5cMCrr8PXTLQjJrpxxqicA!2m2!1d24.16478322719237!2d120.6942223431201!3f3.171194314876857!4f-6.274869041961779!5f0.4000000000000002" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+All of these are large, complicated intersections with wide roads of multiple lanes, as well as cars and motorcycles coming from all directions. It's no surprise that these are among the most dangerous hotspots for bikers in the city. These three locations are all urgent, dangerous zones that the Taichung City Department of Transportation should investigate. Not to mention that the data used in this project only included the first 11 months of 2025. These intersections have likely been dangerous for years more, having caused traffic accidents of tens or even hundreds of people. 

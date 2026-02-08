@@ -10,8 +10,8 @@
       z-index: 1001;
   }
   #quarto-header{
-    background-color: #E8E6E6; 
     padding-top: 3.5rem;
+    background-color: #E8E6E6;
   }
   .content {
     max-width: 40rem;
@@ -80,4 +80,7 @@ img {
   width: 100%;
   height: auto;
   display: block;
+}
+iframe{
+  width: 100%; 
 }

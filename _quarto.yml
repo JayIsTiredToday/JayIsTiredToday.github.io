@@ -6,6 +6,7 @@ website:
   title: "Jay Liu"
   navbar:
     search: false
+    background: "#FCAA83" 
     right: 
       - icon: linkedin
         href: https://www.linkedin.com/in/jay-liu-93a466389/
