@@ -60,6 +60,8 @@
 }
 .project-card h3 {
     margin-top: 0;
+    font-weight: 600 !important; 
+    font-size: 1.3rem !important;
 }
 .project-card p{
   font-weight: 400;
@@ -106,6 +108,12 @@ h2{
   font-family: 'Jost', sans-serif;
   font-weight: 500; 
   font-size: 1.8rem; 
+}
+.content h3{
+  margin-top: 0; 
+  font-family: 'Jost', sans-serif;
+  font-weight: 400; 
+  font-size: 1.3rem; 
 }
 
 p{

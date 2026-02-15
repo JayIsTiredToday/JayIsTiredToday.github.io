@@ -7,16 +7,16 @@ title: "Projects"
 ::: {.project-card}
 <a href="/projects/taichung-bike/taichung-bike.qmd">
 <h3> Taichung City Bike Accidents </h3> 
-<img src="test.png" alt="Project 1" />
+<img src="/projects/taichung-bike/thumbnail.png" alt="Project 1" />
 <p> DBSCAN clustering locating hotspots of traffic accidents</p>
 </a>
 ::: 
 
 ::: {.project-card}
-<a href="project2.html">
-<h3> Project Title 2 </h3> 
-<img src="test.png" alt="Project 2" />
-<p>A brief description of your project goes here.</p>
+<a href="/projects/restaurant-reviews/restaurant-reviews.qmd">
+<h3> Restaurant Reviews Sentiments </h3> 
+<img src="/projects/restaurant-reviews/all/all0.png" alt="Project 2" />
+<p> Consulting project for a local restaurant analyzing customer reviews through NLP </p>
 </a>
 ::: 
 
